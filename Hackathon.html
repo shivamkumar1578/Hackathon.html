@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hackathon.css">
+    <title>Food Waste Reduction Solution</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Hackathon.html"><img src="logo.jpeg"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My profile</a></li>
+                    <li><a href="#">Option</a></li>
+                    <li><a href="#">Message</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>A Bite-Sized Approach to Food Waste</h1>
+    <p>
+        "GreenBite" – a bite-sized solution with a big impact on food waste. In a world where leftovers often end up in the trash, GreenBite steps in as your pocket-sized ally. This user-friendly app transforms your kitchen into a waste-fighting powerhouse, helping you track and utilize ingredients before they bid farewell.
+ 
+    </p>
+    <a href="" class="hero-btn">Visit us to know more</a>
+</div>
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
